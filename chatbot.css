@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.chat-container{
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.header{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.chat-window{
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.input-container{
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+}
+
+#user-input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+#send-button{
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#send-button:hover{
+    background-color: #0056b3;
+}
+.chat-window{
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.message{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.question{
+    color: blue;
+    background-color: #f1f1f1;
+    text-align: right;
+    margin-left: auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    box-sizing: content-box;
+    max-width: 20%;
+}
+
+.answer{
+    color: green;
+    background-color: #e0e0e0;
+    margin-right: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    max-width: 80%;
+}
+.input-container{
+    display: flex;
+    padding: 7px;
+    background-color: black;
+}
+
+textarea{
+    flex: 1;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+button{
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
