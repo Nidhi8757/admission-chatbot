@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chatbot Conversation</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <div class="header">
+
+            <p>ASK ME ANYTHING ABOUT LNJPIT CHHAPRA.</p>
+
+        </div>
+
+        <div class="chat-window" id="chat-window">
+
+            <!-- Messages will be appended here -->
+
+        </div>
+
+        <div class="input-container">
+
+            <textarea id="user-input" placeholder="TYPE YOUR QUESTION..."></textarea>
+
+            <button id="send-button">Ask</button>
+
+        </div>
+
+    </div>
+    <script src="{{url_for('static',filename='script.js')}}"></script>
+</body>
+
+</html>
